@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <img id="image" src="images/img-1.JPG" alt="my-photo">
+        <ul>
+            <li> <a href=#About>About</a></li>
+            <li> <a href=#Contacts>Contacts</a></li>
+            <li> <a href=#Projects>Projects</a></li>
+            <li> <a href=#services>Services</a></li>
+            <li> <a href=#CV>CV</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="about" aria-labelledby="About">
+            <h1 id="About">About</h1>
+            <div class="txt">
+            <p>Hello, I am Arnold Maweu. I am a passionate Front-end <span> developer
+             specializing in transtlating 
+             design</span><span> concepts into seamless and interactive web</span> experiences
+             using HTML,CSS and Javascript.             
+            </p>
+            <p>Also I'm a Software Engineering  Student.</p>
+            </div>
+        </section>
+        <section class="contacts">
+            <h1 id="Contacts">Contacts</h1>
+            <p>Contact me through the following Social Platforms</p>
+            <a href="https://wa.me/254708921608" target="_blank" rel="noopener noreferrer">
+            WhatsApp
+            </a>
+            <a href="https://instagram.com/maweu__" target="_blank" rel="noopener noreferrer">
+            Instagram
+            </a>
+            <a href="https://twitter.com/kanekyyboz" target="_blank" rel="noopener noreferrer">
+            Twitter
+            </a>
+            <p>GitHub Account<span> Click Here!</span></p>
+            <a href="https://github.com/Arnoldisprobablycrazy" target="_blank">Github</a>
+            <P>Send Me a Mail!</P>
+            <a href="maweuarnold76@gmail.com">Email: maweuarnold76@gmail.com</a>
+
+
+        </section>
+        <section>
+            <h1 id="Projects">Projects</h1>
+            <div class="Myprojects">
+            <div class="projects">
+                <h2>Receipe Page</h2>
+                <a href="https://receipe-page-hbyz-301rrjy90-arnoldisprobablycrazys-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <img src="images/receipe.jpg" alt="receipe project">
+                </a>
+            </div>
+            <div class="projects">
+                <h2>Social Profiles</h2>
+                <a href="https://social-profile-pi.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/socials.jpg" alt="Socials">
+                </a>
+
+            </div>
+            <div class="projects">
+                <h2>NewsLetter Website</h2>
+                <a href="https://news-homepage2-six.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/news.jpg" alt="newsletter">
+                </a>
+                
+            </div>
+            <div class="projects">
+                <h2>Age Calculator</h2>
+                <a href="https://age-calculator-kappa-rust.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/calc.jpg" alt="Calculator">
+                </a>
+            </div>
+        </div>
+       
+        </section>
+         <!--Project section end-->
+          <!--Skills section end-->
+          <section class="portfolio-table">
+            <h1>My Skills and Experience</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Experience Level</th>
+                        <th>Years of Experience</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Expert</td>
+                        <td>5+ Years</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Intermediate</td>
+                        <td>4 Years</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Advanced</td>
+                        <td>3+ Years</td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td>Intermediate</td>
+                        <td>2 Years</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+             
+
+        <!--Service section-->
+        <section class="Myservices" aria-labelledby="About" id="services">
+            <h1>Hire Me</h1>
+            <div class="contS">
+               
+                <div class="networking">
+                    <h2>Networking Services</h2>
+                    <img src="images/server.jpg" alt="server room">
+                    <p>Network Administration and Management Services</p>
+
+                </div>
+                <div class="support">
+                    <h2>Data Science</h2>
+                    <img src="images/data science.jpg" alt="dataScience">
+                    <p>Data Science and Data Visualization</p>
+                    
+                </div>
+                <div class="dataScience">
+                    <h2>IT support</h2>
+                    <img src="images/support.jpg" alt="data science">
+                    <p>Support Services and System Administration</p>
+                    
+                </div>
+                <div class="support">
+                    <h2>Web Development</h2>
+                    <img src="images/web.jpg" alt="web development">
+                    <p>Web Design and Development</p>
+                    
+                </div>
+            </div>
+        </section>
+        <!--Service section end-->
+        <section class="cv">
+            <h1 id="CV">CV</h1>
+            <p>Click here to see Cv</p>
+            <a href="NDETEIARNOLDMAWEU.pdf" download="My_CV.pdf" class="download-btn">Download CV</a>
+
+        </section>
+        <section class="contact-form">
+            <h1>Contact Me</h1>
+            <form action="your-server-endpoint" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+        
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+
+    </main>
+    <footer>
+        <div class="footer">
+        <p>Designed by Arnold Maweu</p>
+        <p>All rights reserved 2024 </p>
+        </div>
+    </footer>
+</body>
+</html>
